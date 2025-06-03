@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(#3F5EFB, #FC466B);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 400px;
+  width: 400px;
+  background-color: #ffffffe8;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.container h1 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgb(26, 125, 238);
+}
+
+/* .container-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  gap: 20px;
+} */
+
+#contactForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  gap: 20px;
+}
+
+#contactForm input {
+  padding: 10px;
+  width: 350px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: none;
+  border: 2px solid gray;
+  outline: none;
+}
+
+#contactForm textarea {
+  width: 350px;
+  height: 41px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 15px;
+  border: 2px solid gray;
+  outline: none;
+}
+
+.btn {
+  padding: 10px;
+  width: 150px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+  color : #fff;
+  font-size: 15px;
+}
+
+.btn:hover {
+  background: linear-gradient(90deg, #f0779f 0%, #f8cb6c 100%);
+}
